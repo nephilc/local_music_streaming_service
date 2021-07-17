@@ -10,3 +10,25 @@ if ( window.history.replaceState ) {
 -now let's see if i can put those login containers in different files and then include them.
 -the best way to include html is to use jquery loads. or just use php includes at the server level, put the code to be included in html files.
 -all it takes is one container not 100.
+
+
+
+-do not make for mobile and website at once. these are two different websites basically, not just a website with a flexible layout.
+combine the two using media queries in css and js.
+
+-using the vh with children may create an extra space that causes scrolling.
+
+-always include a border style.
+-some eleents margin causing the page to overscroll.
+-prefer padding over margin
+
+-prefer percentages over vh, vh causes iverscroll
+-dont use vh and vw, or do overscroll x and y hidden, hopefully not causing problems with position later.
+
+-i found vh necessary for bg image. avoid bg position
+
+-the use of vh at least with the body element is necessary
+
+-ignore overscroll must be useful
+
+-minification and ofuscation algorithms.
