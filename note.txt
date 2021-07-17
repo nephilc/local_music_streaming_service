@@ -1,0 +1,12 @@
+<script>
+if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+	</script>
+    
+	
+-could use this instead of a redirect
+-putting thing in a parapraphe will put them in the same line, less css code.
+-now let's see if i can put those login containers in different files and then include them.
+-the best way to include html is to use jquery loads. or just use php includes at the server level, put the code to be included in html files.
+-all it takes is one container not 100.
