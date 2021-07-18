@@ -7,9 +7,10 @@ require "../classes/user.php";
 <?php
 echo $_POST["username"];
 echo $_POST["LOGIN"];
+
 if (isset($_POST["LOGIN"])) {
     $user = new user($connection);
-    $result =  $user->login($_POST["username"], $_POST["password"]);
+    $result =  $user->login(trim($_POST["username"]), $_POST["password"]);
     if($result == true){
         //echo "user recognized";
         $_SESSION["loggedUser"] = $user;
