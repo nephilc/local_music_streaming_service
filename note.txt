@@ -32,3 +32,22 @@ combine the two using media queries in css and js.
 -ignore overscroll must be useful
 
 -minification and ofuscation algorithms.
+
+-the discography of an artist, albums, singles and eps, the artist page	
+-add the number of listens toa track
+-also the righys holder for all tracks, albums, singles and eps. apparently for spot singles are single, but they are in aplaylist so they coulb be more
+-tracks are always presented in playlist form, playlist should be in a different layer.
+
+
+-when you acces a web site, in a way, you are in a directory in another computer.
+-so viewport size is not screen resolution, viewport size can way smalle than screen resolution, usually half. Viewport x DPR = Screen Resolution
+-defining breakpoints. for a phone it is around 400px(360-480(note 5, one plus)), for a tablet it is around 700px(600-800)
+-now all is left is knowing viewport desktop sizes.
+-https://screensiz.es/
+#########naming convetion for difference, some times a css file mdule contains two classes, the question is how to name thes css fie n away that links it to the
+elements it styles without requiring storage in the same folder?
+-first i thought of adding code to the elements doc nales and the css modules. so when including a module, you would know exactly what css file to include
+based on it's name.
+-or the css filename should be tha hash combination of all classes that it contains.
+-by the way, the name of the html elements docs, is the names of their classes.
+-for now iput the css and html code in the same directory, it has pros and cons.
