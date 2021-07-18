@@ -1,7 +1,8 @@
 
 <?php
 
-require "../bp.php"
+require "../bp.php"//mysqland session
+
 ?>
 
 <?php

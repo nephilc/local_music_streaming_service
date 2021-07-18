@@ -3,17 +3,24 @@
     
 
 
-    <form method="POST" action="register.php" class="registrationForm">
-        <h2><b>LOGIN</b></h2>
+    <form method="POST" action="./includes/handlers/register.php" class="registrationForm">
+        <h2><b>Registration</b></h2>
         <form action="./includes/handlers/register.php" method="post">
         <label> Username:</label>
         <input type="text" placeholder="Enter username" name="username" required>
+        <label> E-Mail:</label>
+        <input type="text" placeholder="Enter E-Mail" name="email" required>
         <label> Password:</label>
         <input type="password" placeholder="Enter password" name="password" required>
-        <input type="submit" id='submit' value='LOGIN' >
+        <label> Birth date:</label>
+        <input type="date" name="birthdate" required>
+        <br>
+        
+        <input type="submit" id='submit' value='Register' >
         </form>
-     
-    </form>
+        <div class="toLogin"><span id="hasRegistration">Already have account? click to LOGIN! </span></div>
+
+
 
 
 

@@ -1,7 +1,8 @@
 <?php 
 include "./includes/bp.php";
-include "./includes/guard.php";
+//session_unset();
 
+ 
 ?>
 
 
@@ -25,9 +26,8 @@ if ($_POST) {
     <link rel="stylesheet" type="text/css" href="./css/layout.css">
     <link rel="stylesheet" type="text/css" href="./includes/elements/Forms/Form.css">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./includes/elements/Forms/register.js"></script>
     <title>WELCOME TO STREAMIFY</title>
 </head>
 <body>
