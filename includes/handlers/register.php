@@ -1,4 +1,12 @@
+
 <?php
+
+require "../bp.php"
+?>
+
+<?php
+
+
 if ($_POST) {
     // Execute code (such as database updates) here.
  

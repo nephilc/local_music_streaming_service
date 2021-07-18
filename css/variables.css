@@ -1,0 +1,14 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+var(--blue);
+
+/*these vars could be changed with js
+using vars in media queries
+*/
+
+/*babel, webpack, gulp.js*/
+
+/*create a div just for the bg?*/
