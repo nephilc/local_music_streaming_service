@@ -14,7 +14,7 @@ if (isset($_POST["LOGIN"])) {
     if($result == true){
         //echo "user recognized";
         $_SESSION["loggedUser"] = $_POST["username"];
-        header("Location: ../../browse.php", true, 303 );
+        header("Location: ../../singlePage.php", true, 303 );
         exit();
     }
     else{
