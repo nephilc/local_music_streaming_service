@@ -1,0 +1,32 @@
+.headerContainer{
+    width: 100%;
+    height: 5%;
+    background-color: var(--pannelColor);
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+    /*border-bottom: solid 1px blanchedalmond;*/
+    /*padding-top: 5px;
+    padding-bottom: 5px;*/
+    
+}
+/*one thing that may cause overscroll is padding, it isnt taken into account by the page*/
+/*added the padding using a container*/
+/*the left and right padding are the bad guys*/
+/*the top and bottom ones can be fixed easily*/
+.userInfoContainer{
+    padding-right: 10px;
+}
+.navigationSearch{
+    padding-left: 10px;
+}
+
+/*the bg color, tha panel color, the text color, and the brand color*/
+
+/*html {
+    /*overflow: hidden;
+    height: 100%;
+    width: 100%;
+}yes works but doesnt fix the prob, one can tel wich element is causing overflow*/

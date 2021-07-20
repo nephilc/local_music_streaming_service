@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    margin: 0px;
+    padding-top: 0px;
+    height: 100vh;
+    width: 100vw;
+    
+    /*url("../assets/bg.jpg")*//*but for css the path is relative to the css file*/
+    /*background-position:bottom; this not necessary messes bg*/
+    /*background-size: cover;
+    display: table;*/
+    }
+
+.rootContainer{/*all i did was hardcode this on's size, then on the children use percentage wich work
+    even for height*/
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+/*
+.headerContainer{
+    height: 5%;
+}*/
+.middleContentContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:80%
+
+}
+
+.navBarContainer{
+    width: 20%;
+    height: 100%;
+    background-color: var(--pannelColor);
+}
+.stageContainer{
+
+}

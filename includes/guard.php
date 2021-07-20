@@ -5,7 +5,7 @@ include "./includes/classes/user.php";
 //include this after bp.php
 //user should have gone through login.php
 if(isset($_SESSION["loggedUser"])) {
-    echo $_SESSION["loggedUser"];
+    //echo $_SESSION["loggedUser"];
 
 }
 else {
@@ -15,5 +15,5 @@ else {
 }
 
 //if the user reloads the page then the session must be done for.
-session_unset();
+//session_unset();
 ?>
